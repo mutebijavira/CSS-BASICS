@@ -6,19 +6,39 @@
     <title>CSS Class</title>
     
     <style>
-        h1{
-            color: brown;
-            text-align: center;
+        *{
             color: red;
-            background-color: linen;
-            font-size: 100px;
+            text-align: center;
         }
-        </style>
-    <link rel="stylesheet" href="/index.css">
+       h1{
+        color: blue;
+        color: red;
+        text-align: center;
+       }
+       p{color:red; 
+       font-size:100px;
+       text-align: center;
+       }
+       #heading{
+        color: red;
+        text-align: center;
+       }
+       .paragraph{
+        color: red;
+        text-align: center;
+       }
+       h1, h2, p{
+        color: red;
+        text-align: center;
+       }
+   </style>
+
 </head>
 
 <body>
-    <h1> CSS CLASS</h1>
-    <p style="color:blue;">This is a paragraph.</p>
+    <h1 id="heading"> CSS CLASS</h1>
+    <p class="paragraph">This is a paragraph.</p>
+    <h1 class="paragraph" >welcome home</h1>
+    <h2 class="paragraph" >About</h2>
 </body>
 </html>
