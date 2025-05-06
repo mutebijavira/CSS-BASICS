@@ -1,15 +1,77 @@
 
-h1{color: rgb(43, 226, 153);}
 p{color: brown;
-    border: solid;
-    width: 400px;
+    /* border: solid; */
+    /* width: 400px;
     height: 150px;
     padding-left: 100px;
     padding-right: 20px;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
 
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 50px;
+    border: 1px solid;
+    width: 200px;
+    padding-left: 80px;
+   
+}
+h4{
+    
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    border: 1px solid;
+    width:100px;
+    outline-style: dashed;
+    outline-style: ridge
 
+};
+/* p{
+    margin-left: 100px;
+    margin-top: 50px;  
+} */
+h2{
+    color: rgb(13, 77, 46);
+    color: #ff0000;
+    color: rgb(13, 77, 46);
+    color:purple;
+    text-align: center;
+    text-align: justify;
+    text-align: right;
+    text-align: end ;
+    text-decoration: double;
+    text-transform: lowercase;
+
+
+    
+}
+h6{
+    text-align: justify;
+    text-align-last:center;
+    /* text-decoration-line: underline; */
+    text-transform: lowercase;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-transform: lowercase;
+
+
+
+
+}
+h5{
+    text-align: right;
+    text-align: center;
+    color: blue;
+    text-align: right;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-transform: capitalize;
+    color: blueviolet;
+    text-align: center;
+    text-shadow:2px 2px red;
 }
